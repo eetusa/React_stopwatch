@@ -1,0 +1,22 @@
+button {
+  background-color: rgb(170, 237, 252);
+  border: 0;
+  width: 6em;
+  padding:10px;
+  margin: 10px !important;
+}
+
+.stopwatch-display{
+  font-size: 3rem;
+}
+
+.list-item{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-disabled{
+  background-color: rgb(208, 227, 231);
+  color:  rgb(128, 142, 145);
+}
