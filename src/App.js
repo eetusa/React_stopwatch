@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-6" style={{position:"relative"}} >
+        <div className="col-12 col-sm-6" style={{position:"relative"}} >
           <TimerUI timer={timer} setTimer={setTimer} list={list} setList={setList} />
         </div>
         
-        <div className="col-6">
+        <div className="col-12 col-sm-6">
           <SavedTimesUI list={list} setList={setList}/>
         </div>
         
